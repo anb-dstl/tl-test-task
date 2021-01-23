@@ -21,7 +21,7 @@ public class OpenweatherTest_2_2 {
 		Selenide.clearBrowserLocalStorage();
 	}
 
-	//сайт Openweather.com пытается определить местонахождение клиента и оно кэшируется в браузере
+	//сайт openweathermap.org пытается определить местонахождение клиента и оно кэшируется в браузере
 	//поэтому даже прямая ссылка на город не всегда открывает этот город, и тест покажет ошибку
 	@Test
 	public void getCityTemp_Moscow() {	
